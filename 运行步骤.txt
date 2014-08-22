@@ -1,0 +1,5 @@
+0、修改qrtree\script目录下脚本的参数，使之与当前Hadoop集群正确匹配
+1、运行LoadQRTree.bat 将qrtree相关文件拷贝到客户端
+2、进入客户端运行LoadData.sh将数据上传到HDFS中
+3、运行createQRTree.sh脚本并行创建QR-树,并输出创建时间在控制台
+5、运行query.sh脚本执行查询并输出查询时间在控制台
